@@ -71,19 +71,23 @@ header ul:after {
 }
 
 .function-images {
-  padding: 80px;
-  margin: 0;
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly; /* 平均四張圖 */
+  position: relative;
+  left: 80px;
 }
+
 
 .function-image {
   float: left;
-  margin-right: 150px;
+  margin-right: 100px;
 }
 /* ここまでがfunction部分の実装 */
 
+
 footer {
 /* footer部分の実装 */
-  width: 100%;
   height: 80px;
   position: relative;
   color: white;
